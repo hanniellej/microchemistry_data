@@ -145,5 +145,3 @@ area_238U = regression(df_exnoise, df, '238U')
 data = {'25Mg' : area_25Mg,'31P' : area_31P,'34S' : area_34S,'43Ca' : area_43Ca,'55Mn' : area_55Mn, '57Fe' : area_57Fe, '63Cu' : area_63Cu, '88Sr' : area_88Sr,'138Ba' : area_138Ba, '208Pb' : area_208Pb, '238U' : area_238U,'11B' : area_11B, '66Zn' : area_66Zn, '85Rb' : area_85Rb, '232Th' : area_232Th}
 Area_df =pd.DataFrame(data, index=[0])
 #print(Area_df)
-
-#Area_df.to_excel (r'C:\Users\hanni\OneDrive\Documents\lopez_lab\new_data_proc\raw_data\export_dataframe.xlsx', index = None, header=True)
